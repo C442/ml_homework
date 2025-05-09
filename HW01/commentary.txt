@@ -1,0 +1,56 @@
+Ex1 not done
+
+1.1 0/2 
+
+1.2 0/1
+
+1.3
+
+a. 0/1
+
+b. 0/0.5
+
+c. 0/0.5
+
+d. 0/0.5
+
+e. 0/0.5
+
+
+
+2.1 0/2 The reason that makes standardization useful is that it makes different features (with potentially different units and scales), comparable. This way, all features contribute a similar amount to the loss and therefore to the solution.
+
+
+The plot is not clear. You should use the axis X and Y to plot a feature on each, not the class. The class should be indicated with color.
+
+2.2 2/2
+
+2.3 2/2
+
+2.4 0/1 You were suposed to plot the linear boundaries on top of the data, not the parameters of the lines. This way it is really hard to analyze.
+
+2.5 0/1 SVM only converges for linearly separable data. In this case (you can see it with the right scatter plot), there is overlap between the classes. 
+
+2.6
+
+a. 0.25/0.5 The histogram can be used to estimate the generalization error.
+
+b. 0.5/0.5 please use prints next time
+
+c. 0/0.5 It will approximate a Gaussian distribution, as explained by the central limit theorem. The bimodal distribution should be an artifact. The two features don't have anything to do with it.
+
+d. 0.25/0.5 This is not the expected behavior. With 50% flips, all information is destroyed so we expect a mean error around 0.5. Looking at the label flipping, you are not changing a % of the points but just a fixed number. 
+
+3.1 2/4 The transformation looks fine and the error comes from the plotting. The RBF does not run.
+
+3.2 2/2
+
+3.3 2/2
+
+3.4 0/2 Error
+
+3.5 0/2 Error 
+
+3.6 0/1 Empty
+
+3.7 0/1 Empty 
